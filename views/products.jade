@@ -1,0 +1,80 @@
+doctype html
+html
+	head
+		link(rel='stylesheet', href='/css/bootstrap.min.css')
+		link(rel='stylesheet', href='/css/style.css')
+		script(type="text/javascript",src='/scripts/jquery-2.0.3.min.js')		
+		script(type="text/javascript",src='/scripts/scripts.js')
+		script(type="text/javascript",src='/scripts/bootstrap.min.js')
+	body
+		div(id='mainbody')
+			nav(class="navbar navbar-inverse" role="navigation")
+				div(class="navbar-header")
+					a(class="navbar-brand" href="/") TCF
+				div
+					ul(class='nav navbar-nav')
+						li 
+							a(href="/") home
+						li
+							a(href="/products") products
+						li 
+							a(href="/contact") contact us
+						li 
+							a(href="/reviews") reviews
+		div(class="mbdy")
+			div(class="products")
+				artical(class="mainproducts")
+					fieldset(class="field")
+						legend(class="legend") OUR PRODUCTS
+						div(class="prod")
+							div(class="well")
+								div(class="media")
+									a(class="pull-left")
+										img(class="media-object" src="/images/125.gif" alt="fire")
+									div(class="media-body")
+										p(class="name" data-prod="prod name") Prod Name
+										p(class="price" data-price="350") Price: 350 Rs
+										p Enter Quantity :
+										input(type="number" class="inpt" name="qty" min="1" max="100")
+										button(type="button" class="butn") Add to kart
+							div(class="well")
+								div(class="media")
+									a(class="pull-left")
+										img(class="media-object" src="/images/125.gif" alt="fire")
+									div(class="media-body")
+										p(class="name" data-prod="prod name") Prod Name
+										p(class="price" data-price="350") Price: 350 Rs
+										p Enter Quantity :
+										input(type="number" class="inpt" name="qty" min="1" max="100")
+										button(type="button" class="butn") Add to kart
+							div(class="well")
+								div(class="media")
+									a(class="pull-left")
+										img(class="media-object" src="/images/125.gif" alt="fire")
+									div(class="media-body")
+										p(class="name" data-prod="prod name") Prod Name
+										p(class="price" data-price="350") Price: 350 Rs
+										p Enter Quantity :
+										input(type="number" class="inpt" name="qty" min="1" max="100")
+										button(type="button" class="butn") Add to kart
+			div(id="cart")
+				artical(class="cart")
+					fieldset(class="field")
+						legend(class="legend") MY CART
+							div(class="scroller")
+							div(class="total")
+								div(class="panel panel-default")
+									div(class="panel-body")
+			div(class="footer")
+			div(classs="container")
+				p(class="text-muted") Footer Content
+										
+		
+
+
+
+
+									
+									
+										
+										

@@ -1,0 +1,90 @@
+
+
+.carousel {
+height: 400px;
+width: 720px;
+margin-bottom: 60px;
+
+ margin-left: auto;
+    margin-right: auto;
+}
+.carousel {
+position: relative;
+}
+
+
+/* this is for the slider, change height and width according to the image to make it look better*/
+
+.footer{
+	text-align: center;
+	margin: auto;
+	width: auto;
+max-width: 680px;
+padding: 0 15px;
+
+
+}
+
+/*products page*/
+
+.mainproducts
+{
+	
+	padding: 5px;
+	margin: 10px;
+
+	display: inline-block;
+	
+	width:70%;
+	
+	border: 3px double black; 
+  border-radius: 5px 5px 5px 5px; 
+  box-shadow: 0px 0px 14px #000000;
+ -moz-box-shadow: 0px 0px 14px #000000;
+ -webkit-box-shadow: 0px 0px 14px #000000;
+
+
+	
+}
+.mbody{
+	display: block;
+}
+.cart
+{
+	position: absolute;
+	right: 30px;
+	top: 75px;
+	padding: 5px;
+	margin: 10px;
+	width:20%;
+	border: 3px double black; 
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0px 0px 14px #000000;
+ -moz-box-shadow: 0px 0px 14px #000000;
+ -webkit-box-shadow: 0px 0px 14px #000000;
+		
+}
+.btn{
+	margin: 5px;
+}
+
+.scroller{
+
+	height:300px;
+	overflow:scroll;
+
+
+
+}
+
+.total{
+	height:100px;
+}
+
+.walle{
+	
+	font-size:10px;
+	padding: 2px;
+
+}
+

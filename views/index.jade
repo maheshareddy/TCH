@@ -1,0 +1,56 @@
+doctype html
+html
+	head
+		link(rel='stylesheet', href='/css/bootstrap.min.css')
+		link(rel='stylesheet', href='/css/style.css')
+		script(type="text/javascript",src='/scripts/jquery-2.0.3.min.js')
+		script(type="text/javascript",src='/scripts/bootstrap.min.js')
+
+
+	body
+		div(id='mainbody')
+			nav(class="navbar navbar-inverse" role="navigation")
+				div(class="navbar-header")
+					a(class="navbar-brand" href="/") TCF
+				div
+					ul(class='nav navbar-nav')
+						li 
+							a(href="/") home
+						li
+							a(href="/products") products
+						li 
+							a(href="/contact") contact us
+						li 
+							a(href="/reviews") reviews
+			div(id="myCarousel" class="carousel slide")
+				ol(class="carousel-indicators")
+					li.active(data-target='#myCarousel', data-slide-to='0')
+					li(data-target='#myCarousel', data-slide-to='1')
+					li(data-target='#myCarousel', data-slide-to='2')
+				div(class="carousel-inner")
+					div(class="item active")
+						img(src='/images/1.png', alt='First slide')
+					div(class="item")
+						img(src='/images/2.png', alt='Second slide')
+					div(class="item")
+						img(src='/images/3.png', alt='Third slide')
+
+				a(class="carousel-control left" href='#myCarousel', data-slide='prev')
+				a(class="carousel-control right" href='#myCarousel', data-slide='next')
+		div(class="panel panel-default")
+			div(class="panel-body")
+				h2 THE CHOCOLATE FACTORY
+				p(class="lead") This is an example paragraph demonstrating the use of lead body 
+								copy. This is an example paragraph demonstrating the use of lead body copy.This is 
+								an example paragraph demonstrating the use of lead body copy.This is an example 
+								paragraph demonstrating the use of lead body copy.This is an example paragraph 
+								demonstrating the use of lead body copy
+		div(class="footer footer-inverse")
+			div(classs="container")
+				p(class="text-muted") footer item
+				
+
+
+
+
+

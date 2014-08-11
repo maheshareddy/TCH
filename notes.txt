@@ -1,0 +1,15 @@
+home, products(order), offers,about us,contact, reviews (text box and goes to another email)
+
+login name,address,phone, email, and when a user orders, email is sent to the user, and user sends a 
+confirmation email back ,ie order recieved thank u and visit again
+
+in home(login, register, and some pictures and some genral info about the company)
+
+or if not a member then ordering  
+
+products : pictures, some ingridents, price, no in a pcaket, grams, order ( how many and a bill kind of page and a confirmation email(by the user))
+
+
+
+
+
