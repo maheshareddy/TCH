@@ -39,20 +39,14 @@ $(document).ready(function(){
 
 		var cart_bottom= $(".panel-body")
 
-		
-
-
-
-		
-
-		
-		
-
 		name.appendTo(div_well);
 		price.appendTo(div_well);
 		quantity_add.appendTo(div_well);
 		total_price_diaplay.appendTo(div_well);
 		button_remove.appendTo(div_well);
+
+
+		
 
 		var scroller= $("div.scroller");
 		if(quantity){
@@ -64,19 +58,28 @@ $(document).ready(function(){
 		}else{
 			alert('insert the qunatity!');
 		}
-		button_remove.click(function(){
+
+button_remove.click(function(){
 
 			$(this).parent(".well").remove();
 
+			pp= pp-total_price;
+
+			cart_bottom.html("<p>"+"Total :"+pp+ " Rs"+ "</p> <a href='/payment'> <button>Proceed For Payment</button></a>");
+
+			});
 
 
 
-	
-	 
+
+
+		
 
 
 
-		});
+
+
+
 
 	});
 
